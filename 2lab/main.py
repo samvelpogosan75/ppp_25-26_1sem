@@ -13,6 +13,6 @@ def brackets(text):
             if last + symbol not in ['()', '[]', '{}']:
                 return f"Ошибка на позиции {index}"
     if stack:
-        return "Ошибка"
+        return "Ошибка: незакрытая скобка"
     return "ok"
 print(brackets("(a)(b(c[d{e{r}f{g}s}w]r)tasd)"))
