@@ -27,6 +27,6 @@ expr = "(2 + (3 * (4 - 1)))"
 res = calc(expr)
 
 print("Результат:", res)
-print("\nШаги:")
+print("Шаги:")
 for s in log:
     print(s)
