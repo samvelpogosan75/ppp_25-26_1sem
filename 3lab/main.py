@@ -5,7 +5,7 @@ def calc(expr):
     log.append("вычисляем: " + expr)
 
     if "(" not in expr:
-        result = eval(expr)     # самый простой способ
+        result = eval(expr)     
         log.append(f"{expr} = {result}")
         return result
 
